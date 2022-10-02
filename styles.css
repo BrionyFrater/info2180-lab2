@@ -1,0 +1,101 @@
+*{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans- serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 25% 70% 5%;
+    grid-template-columns: 60% 40%;
+}
+
+#myPic{
+    border-radius: 100%;
+}
+
+.img_float{
+    float: left;
+    margin: 0 3% 3% 0;
+}
+
+header{
+    grid-row: 1;
+    grid-column: span 2;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #63B3ED;
+    padding: 5%;
+}
+
+header h1, header p{
+    color: #fff;
+}
+
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    grid-row: 2;
+    grid-column: 1;
+
+    padding: 5%;
+}
+
+main h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+#date{
+    color: #718096;
+}
+
+aside{
+    grid-row: 2;
+    grid-column: 2;
+
+    padding: 5%;
+}
+
+aside h3{
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about{
+    background-color: #E2E8F0;
+}
+
+#about h3{
+    color: #000;
+}
+
+aside a{
+    color: #4299E1;
+}
+
+section{
+    padding: 5%;
+}
+
+footer{
+    grid-row: 3;
+    grid-column: span 2;
+
+    background-color: #2C5282;
+}
+
+footer p{
+    color: #fff;
+}
+
+
+
